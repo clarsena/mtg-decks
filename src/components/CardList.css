@@ -1,0 +1,27 @@
+.card-list {
+	flex: 0 1 50%;
+	display: flex;
+	flex-direction: column;
+	height: 93vh;
+	overflow: auto;
+}
+
+.list-item {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid rgba(143, 143, 143, 0.699);
+	padding: 5px 0;
+}
+
+.list-item:hover {
+	background-color: rgb(224, 233, 245);
+}
+
+.list-item-details {
+	display: flex;
+}
+
+.list-item-details h3 {
+	font-weight: 600;
+}
